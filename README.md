@@ -1,2 +1,3 @@
 # Networking-Infrastructure
 
+This code is an AWS CloudFormation template that creates a VPC (Virtual Private Cloud) with a public and private subnet in two availability zones. The template also creates an Internet Gateway, NAT Gateways, and default routes for the public and private subnets. The user can specify their own IP ranges for the VPC and subnets, as well as an environment name that will be prefixed to resource names. The template creates various AWS resources such as EC2 instances, VPC, Internet Gateway, Subnet, and EIP. This code will be used to deploy networking infrastructure to AWS cloud and set up the networking for the resources that will be deployed later on in the stack.
